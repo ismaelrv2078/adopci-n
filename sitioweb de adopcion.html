@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adopcion</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Fundación Huellitas de Amor</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#adopcion">Adopción</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h2>¡Dales una segunda oportunidad!</h2>
+      <p>Rescatamos, cuidamos y buscamos hogares amorosos para perritos y gatitos.</p>
+      <a href="#adopcion" class="btn">Ver animales en adopción</a>
+    </div>
+  </section>
+
+  <section id="adopcion" class="adopcion">
+    <div class="container">
+      <h2>En adopción</h2>
+      <div class="grid">
+        <div class="animal">
+          <img src="img/pelusa.jpg" alt="Gatito en adopción" />
+          <h3>Pelusa</h3>
+          <p>Gatita cariñosa de 2 meses, vacunada y desparasitada.</p>
+        </div>
+        <div class="animal">
+          <img src="img/firulais.jpg" alt="Perrito en adopción" />
+          <h3>Firulais</h3>
+          <p>Perrito juguetón de 1 año, muy sociable y sano.</p>
+        </div>
+        <div class="animal">
+          <img src="img/milo.jpg" alt="Gatito en adopción" />
+          <h3>Milo</h3>
+          <p>Gato tranquilo, ideal para compañía en casa o apartamento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <div class="container">
+      <h2>Contáctanos</h2>
+      <form action="#" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Fundación Huellitas de Amor. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
